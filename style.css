@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    font-family: "Bitcount Single", system-ui;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tasbeh {
+    position: relative;
+}
+
+.aylana {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 70px 70px 100px 100px;
+}
+
+.aylana-kichik {
+    width: 150px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0px 0px 100px 100px;
+}
+
+.katta {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.light {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 120px;
+    left: 30px;
+    cursor: pointer;
+}
+
+input {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: end;
+    font-size: 25px;
+    padding-right: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.kichkina {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 120px;
+    right: 30px;
+    cursor: pointer;
+}
